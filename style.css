@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Inter, sans-serif;
+    background-color: #23252C;
+    width: 500px;
+    padding: 50px;
+}
+
+.about, .information, .interests, .social-media{
+    width: 317px;
+    height: auto;
+    background-color: #1A1B21;
+    color: #fff;
+}
+
+
+
+.about-img{
+    width: 317px;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.about, .interests{
+    padding: 35px 30px;
+}
+
+.about{
+    padding-bottom: 25px;
+}
+
+.interests{
+    padding-top: 0;
+}
+
+.about h2, .interests h2{
+    color: #F5F5F5;
+}
+
+.about p, .interests p{
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+
+
+
+
+.about h2, .interests h2{
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+}
+
+.about p, .interests p{
+    font-size: 10.24px;
+   
+}
+
+
+
+.name{
+    font-weight: 700;
+   letter-spacing: -1px;
+   color: white;
+   margin: 0;
+   text-align: center;
+   margin-top: 25px;
+}
+
+.occupation{
+    color: #F3BF99;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.web{
+    color:white;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    margin:10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+    
+}
+
+.buttons :first-child{
+    color: #374151;
+}
+
+.buttons svg{
+    width: 16px;
+    height: auto;
+    background-color: #fff;
+    
+}
+
+.buttons :first-child svg{
+    background-color: #fff;
+    fill: #1E1F26;
+}
+
+.buttons :last-child{
+    background-color: #5093E2;
+    color: #fff;
+}
+
+.buttons :last-child svg{
+    fill: #fff;
+}
+
+.buttons *{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+button{
+    width:115px;
+    height: 34px;
+    border-radius: 6px;
+    border: 0;
+}
+
+.social-media{
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-media svg {
+    width: 25px;
+    fill: #918E9B;
+}
